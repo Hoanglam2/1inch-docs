@@ -54,11 +54,11 @@ const config = {
             position: 'left',
             items: [
               {
-                label: 'Aggregation protocol',
+                label: 'Aggregation Protocol',
                 href: '/docs/aggregation-protocol/introduction',
               },
               {
-                label: 'Limit order protocol',
+                label: 'Limit Order Protocol',
                 href: '/docs/limit-order-protocol/introduction'
               },
               {
@@ -66,6 +66,11 @@ const config = {
                 href: '/docs/spot-price-aggregator/introduction'
               }
             ]
+          },
+          {
+            label: 'Fusion',
+            position: 'left',
+            href: '/docs/fusion-swap/introduction'
           },
           {
             label: 'Governance',
